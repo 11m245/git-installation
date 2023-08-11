@@ -1,0 +1,41 @@
+after installing git
+
+open a folder 
+
+right click and click git bash here
+
+git config --global user.name "YOUR_GITHUB_USERNANME"
+
+git config --global user.email "YOUR_GITHUB_EMAIL"
+
+git config --list
+
+//check your details
+
+CLONE
+git clone GIT_URL
+//url not in doublequotes
+
+//create a new repository on the command line
+
+echo "# check" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/11m245/check.git
+git push -u origin main
+
+//push an existing repository from the command line
+
+git remote add origin https://github.com/11m245/check.git
+git branch -M main
+git push -u origin main
+
+
+
+
+
+
+
+
